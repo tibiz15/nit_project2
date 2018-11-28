@@ -392,6 +392,9 @@ function pageReload(currentPage) {
     </div>\
     ");
 
+
+
+
     } else if (currentPage == pages.catalog) {
 
 
@@ -709,7 +712,7 @@ function pageReload(currentPage) {
 
                 },
                 error: function (xhr) {
-                    alert('Error while loading data!');
+                    alert('Error while loading data');
                 },
             });
 
