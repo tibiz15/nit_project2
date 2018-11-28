@@ -383,12 +383,12 @@ function pageReload(currentPage) {
             <button><a href='tel:+380676305569'>\
                 +380676305569\
             </a></button>\
-            <button id='fb-share'><a href='httpss://www.facebook.com/sharer/sharer.php?u=bandw.com' target='_blank'>\
+            <button id='fb-share'><a href='https://www.facebook.com/sharer/sharer.php?u=bandw.com' target='_blank'>\
                     Share\
                 </a></button>\
-            <button id='tweet'><a href='httpss://twitter.com/share?ref_src=twsrc%5Etfw' data-size='large' data-lang='uk'\
+            <button id='tweet'><a href='https://twitter.com/share?ref_src=twsrc%5Etfw' data-size='large' data-lang='uk'\
                     data-show-count='false' target='_blank'>Tweet</a>\
-                <script async src='httpss://platform.twitter.com/widgets.js' charset='utf-8'></script></button>\
+                <script async src='https://platform.twitter.com/widgets.js' charset='utf-8'></script></button>\
         </div>\
     </div>\
     ");
