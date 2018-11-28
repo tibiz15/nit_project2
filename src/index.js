@@ -85,7 +85,7 @@ function addToCart(id, quantity) {
 
     //---------------------
     var name = "Your item";
-    var url_ = "http://nit.tron.net.ua/api/product/" + id;
+    var url_ = "https://nit.tron.net.ua/api/product/" + id;
     $.ajax({
         url: url_,
         type: 'GET',
@@ -229,7 +229,7 @@ function pageReload(currentPage) {
                         if (cart.length >= 1) {
 
                             $.ajax({
-                                url: 'http://nit.tron.net.ua/api/order/add',
+                                url: 'https://nit.tron.net.ua/api/order/add',
                                 type: 'POST',
                                 data: dataJ,
                                 dataType: 'json',
@@ -290,7 +290,7 @@ function pageReload(currentPage) {
 
             //alert(cart[i].quantity);
 
-            var url_ = "http://nit.tron.net.ua/api/product/" + cart[i].id;
+            var url_ = "https://nit.tron.net.ua/api/product/" + cart[i].id;
             $.ajax({
                 url: url_,
                 type: 'GET',
@@ -383,12 +383,12 @@ function pageReload(currentPage) {
             <button><a href='tel:+380676305569'>\
                 +380676305569\
             </a></button>\
-            <button id='fb-share'><a href='https://www.facebook.com/sharer/sharer.php?u=bandw.com' target='_blank'>\
+            <button id='fb-share'><a href='httpss://www.facebook.com/sharer/sharer.php?u=bandw.com' target='_blank'>\
                     Share\
                 </a></button>\
-            <button id='tweet'><a href='https://twitter.com/share?ref_src=twsrc%5Etfw' data-size='large' data-lang='uk'\
+            <button id='tweet'><a href='httpss://twitter.com/share?ref_src=twsrc%5Etfw' data-size='large' data-lang='uk'\
                     data-show-count='false' target='_blank'>Tweet</a>\
-                <script async src='https://platform.twitter.com/widgets.js' charset='utf-8'></script></button>\
+                <script async src='httpss://platform.twitter.com/widgets.js' charset='utf-8'></script></button>\
         </div>\
     </div>\
     ");
@@ -422,7 +422,7 @@ function pageReload(currentPage) {
             });
 
             $.ajax({
-                url: 'http://nit.tron.net.ua/api/category/list',
+                url: 'https://nit.tron.net.ua/api/category/list',
                 type: 'GET',
                 dataType: 'json',
                 success: function (content) {
@@ -486,7 +486,7 @@ function pageReload(currentPage) {
             });
 
             $.ajax({
-                url: 'http://nit.tron.net.ua/api/category/' + currentCategoryId,
+                url: 'https://nit.tron.net.ua/api/category/' + currentCategoryId,
                 type: 'GET',
                 dataType: 'json',
                 success: function (content) {
@@ -506,7 +506,7 @@ function pageReload(currentPage) {
 
 
                     $.ajax({
-                        url: 'http://nit.tron.net.ua/api/product/list/category/' + currentCategoryId,
+                        url: 'https://nit.tron.net.ua/api/product/list/category/' + currentCategoryId,
                         type: 'GET',
                         dataType: 'json',
                         success: function (content) {
@@ -595,7 +595,7 @@ function pageReload(currentPage) {
             });
 
             $.ajax({
-                url: 'http://nit.tron.net.ua/api/product/list',
+                url: 'https://nit.tron.net.ua/api/product/list',
                 type: 'GET',
                 dataType: 'json',
                 success: function (content) {
@@ -664,7 +664,7 @@ function pageReload(currentPage) {
 
 
 
-            var url_ = "http://nit.tron.net.ua/api/product/" + currentItemId;
+            var url_ = "https://nit.tron.net.ua/api/product/" + currentItemId;
             $.ajax({
                 url: url_,
                 type: 'GET',
