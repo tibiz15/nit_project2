@@ -1,6 +1,5 @@
 import './scss/main.scss';
 
-alert("1.0");
 
 var states = { //for catalog page
     categoryList: 1,
@@ -388,8 +387,7 @@ function pageReload(currentPage) {
                     Share\
                 </a></button>\
             <button id='tweet'><a href='https://twitter.com/share?ref_src=twsrc%5Etfw' data-size='large' data-lang='uk'\
-                    data-show-count='false' target='_blank'>Tweet</a>\
-                <script async src='https://platform.twitter.com/widgets.js' charset='utf-8'></script></button>\
+                    data-show-count='false' target='_blank'>Tweet</a></button>\
         </div>\
     </div>\
     ");
