@@ -1,5 +1,6 @@
 import './scss/main.scss';
 
+alert("1.0");
 
 var states = { //for catalog page
     categoryList: 1,
